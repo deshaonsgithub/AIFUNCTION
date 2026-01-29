@@ -1,0 +1,6 @@
+azure-functions
+msal
+requests
+azure-servicebus
+azure-storage-blob
+python-dateutil

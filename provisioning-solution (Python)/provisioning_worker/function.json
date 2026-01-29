@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "provisioning-queue",
+      "connection": "ServiceBusConnection"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "provisioning-logs/{provisioningId}.json",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

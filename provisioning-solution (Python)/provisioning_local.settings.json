@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ServiceBusConnection": "<YOUR_SERVICE_BUS_CONNECTION_STRING>",
+    
+    "AZURE_TENANT_ID": "<YOUR_AZURE_TENANT_ID>",
+    "AZURE_CLIENT_ID": "<YOUR_APP_REGISTRATION_CLIENT_ID>",
+    "AZURE_CLIENT_SECRET": "<YOUR_APP_REGISTRATION_SECRET>",
+    
+    "INVITE_REDIRECT_URL": "https://myapps.microsoft.com"
+  }
+}

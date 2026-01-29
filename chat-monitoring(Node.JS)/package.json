@@ -1,0 +1,21 @@
+{
+  "name": "azure-chat-monitoring",
+  "version": "1.0.0",
+  "description": "Azure Functions chat bot monitoring with multi-model confidence scoring",
+  "main": "src/functions/chatIngest.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/openai": "^1.0.0-beta.12",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@azure/functions-core-tools": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
